@@ -72,6 +72,7 @@ nav {
 .slider-wrapper {
     display: flex;
     width: 500vw;
+    transition: all 0.5s ease-in-out;
 }
 
 .slider-item {
