@@ -109,4 +109,21 @@ nav {
   font-weight: 300;
   text-align: center;
   border: 1px grey solid;
+}
+
+.buy-button {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  border: 1px grey solid;
+  cursor: pointer;
+  background-color: black;
+}
+.buy-button:hover {
+  background-color: grey;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
