@@ -47,4 +47,16 @@ nav {
   font-size: 20px;
   border-bottom: 2px solid green;
   cursor: pointer;
+}
+
+.nav-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item {
+  margin-right: 50px;
+  cursor: pointer;
+  color: lightgray;
 }/*# sourceMappingURL=style.css.map */
