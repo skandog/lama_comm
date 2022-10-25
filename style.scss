@@ -76,6 +76,15 @@ nav {
     position: relative;
 }
 
+.slider-bg {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(214, 143, 143);
+    z-index: -1;
+}
+
 .slider-title {
     position: absolute;
     top: 10%;
@@ -84,4 +93,15 @@ nav {
     font-size: 60px;
     font-weight: 900;
     text-align: center;
+}
+
+.slider-price {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    border: 1px grey solid;
 }
