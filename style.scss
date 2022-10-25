@@ -1,3 +1,9 @@
+$color-1: rgb(192, 45, 106);
+$color-2: rgb(39, 139, 14);
+$color-3: rgb(214, 143, 143);
+$color-4: rgb(83, 31, 180);
+$color-5: rgb(29, 111, 218);
+
 body {
     font-family: 'Quicksand', sans-serif;
     padding: 0;
@@ -74,6 +80,58 @@ nav {
     align-items: center;
     justify-content: center;
     position: relative;
+
+    &:nth-child(1) {
+        .slider-bg {
+            background-color: $color-1;
+        }
+
+        .slider-price {
+            color: $color-1;
+        }
+    }
+
+    &:nth-child(2) {
+        .slider-bg {
+            background-color: $color-2;
+        }
+
+        .slider-price {
+            color: $color-2;
+        }
+    }
+
+    &:nth-child(3) {
+        .slider-bg {
+            background-color: $color-3;
+        }
+
+        .slider-price {
+            color: $color-3;
+        }
+    }
+
+    &:nth-child(4) {
+        .slider-bg {
+            background-color: $color-4;
+        }
+
+        .slider-price {
+            color: $color-4;
+        }
+    }
+
+    &:nth-child(5) {
+        .slider-bg {
+            background-color: $color-5;
+        }
+
+        .slider-price {
+            color: $color-5;
+        }
+    }
+
+
 }
 
 .slider-bg {
@@ -81,7 +139,7 @@ nav {
     height: 750px;
     border-radius: 50%;
     position: absolute;
-    background-color: rgb(214, 143, 143);
+
     z-index: -1;
 }
 

@@ -80,13 +80,42 @@ nav {
   justify-content: center;
   position: relative;
 }
+.slider-item:nth-child(1) .slider-bg {
+  background-color: rgb(192, 45, 106);
+}
+.slider-item:nth-child(1) .slider-price {
+  color: rgb(192, 45, 106);
+}
+.slider-item:nth-child(2) .slider-bg {
+  background-color: rgb(39, 139, 14);
+}
+.slider-item:nth-child(2) .slider-price {
+  color: rgb(39, 139, 14);
+}
+.slider-item:nth-child(3) .slider-bg {
+  background-color: rgb(214, 143, 143);
+}
+.slider-item:nth-child(3) .slider-price {
+  color: rgb(214, 143, 143);
+}
+.slider-item:nth-child(4) .slider-bg {
+  background-color: rgb(83, 31, 180);
+}
+.slider-item:nth-child(4) .slider-price {
+  color: rgb(83, 31, 180);
+}
+.slider-item:nth-child(5) .slider-bg {
+  background-color: rgb(29, 111, 218);
+}
+.slider-item:nth-child(5) .slider-price {
+  color: rgb(29, 111, 218);
+}
 
 .slider-bg {
   width: 750px;
   height: 750px;
   border-radius: 50%;
   position: absolute;
-  background-color: rgb(214, 143, 143);
   z-index: -1;
 }
 
