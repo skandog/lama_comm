@@ -41,4 +41,10 @@ nav {
 .search-icon {
   height: 20px;
   width: 20px;
+}
+
+.limited-offer {
+  font-size: 20px;
+  border-bottom: 2px solid green;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
