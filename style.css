@@ -208,4 +208,40 @@ nav {
   right: 0;
   width: 40%;
   padding: 50px;
+}
+
+.product-title {
+  font-size: 75px;
+  font-weight: 900;
+}
+
+.product-description {
+  font-size: 24px;
+  color: rgb(85, 84, 84);
+}
+
+.colors,
+.sizes {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.color {
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: black;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.color:last-child {
+  background-color: darkblue;
+}
+
+.size {
+  padding: 5px 20px;
+  border: 1px solid black;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
