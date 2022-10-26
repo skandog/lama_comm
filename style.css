@@ -188,4 +188,24 @@ nav {
   color: grey;
   width: 50%;
   height: 100px;
+}
+
+.product {
+  height: 100vh;
+  background-color: whitesmoke;
+  -webkit-clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 100%);
+  position: relative;
+}
+
+.product-img {
+  width: 50%;
+}
+
+.product-details {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  width: 40%;
+  padding: 50px;
 }/*# sourceMappingURL=style.css.map */
