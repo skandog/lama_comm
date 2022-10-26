@@ -86,6 +86,7 @@ const currentProductTitle = document.querySelector(".product-title");
 const currentProductPrice = document.querySelector(".product-price");
 const currentProductColors = document.querySelectorAll(".color");
 const currentProductSizes = document.querySelectorAll(".size");
+const currentProductButton = document.querySelectorAll(".product-button");
 
 menuItems.forEach((item, index) => {
   item.addEventListener("click", () => {
