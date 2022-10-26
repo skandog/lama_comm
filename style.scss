@@ -4,6 +4,10 @@ $color-3: rgb(214, 143, 143);
 $color-4: rgb(83, 31, 180);
 $color-5: rgb(29, 111, 218);
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     padding: 0;
