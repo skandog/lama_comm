@@ -64,8 +64,8 @@ nav {
 .slider {
   background: url(https://source.unsplash.com/9tqAeLDQT-o/1600x800);
   background-size: cover;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
-          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   overflow: hidden;
 }
 
@@ -157,4 +157,29 @@ nav {
 .buy-button:hover {
   background-color: grey;
   color: black;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-img {
+  width: 50px;
+  height: 50px;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px;
 }/*# sourceMappingURL=style.css.map */
