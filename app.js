@@ -1,17 +1,11 @@
 const wrapper = document.querySelector(".slider-wrapper");
 const menuItems = document.querySelectorAll(".menu-item");
 
-menuItems.forEach((item, index) => {
-  item.addEventListener("click", () => {
-    wrapper.style.transform = `translateX(${-100 * index}vw)`;
-  });
-});
-
 const products = [
   {
     id: 1,
     title: "Air Force",
-    price: 119,
+    price: 150,
     colors: [
       {
         code: "black",
@@ -26,7 +20,7 @@ const products = [
   {
     id: 2,
     title: "Air Jordan",
-    price: 149,
+    price: 140,
     colors: [
       {
         code: "lightgray",
@@ -41,7 +35,7 @@ const products = [
   {
     id: 3,
     title: "Blazer",
-    price: 109,
+    price: 170,
     colors: [
       {
         code: "lightgray",
@@ -56,7 +50,7 @@ const products = [
   {
     id: 4,
     title: "Crater",
-    price: 129,
+    price: 115,
     colors: [
       {
         code: "black",
@@ -71,7 +65,7 @@ const products = [
   {
     id: 5,
     title: "Hippie",
-    price: 99,
+    price: 120,
     colors: [
       {
         code: "gray",
@@ -84,3 +78,37 @@ const products = [
     ],
   },
 ];
+
+let chosenProduct = products[0];
+
+const currentProductImg = document.querySelector(".product-img");
+const currentProductTitle = document.querySelector(".product-title");
+const currentProductPrice = document.querySelector(".product-price");
+const currentProductColors = document.querySelectorAll(".color");
+const currentProductSizes = document.querySelectorAll(".size");
+
+menuItems.forEach((item, index) => {
+  item.addEventListener("click", () => {
+    // change the current slide
+    wrapper.style.transform = `translateX(${-100 * index}vw)`;
+
+    // change the chosen product
+    chosenProduct = products[index];
+
+    // change text of currentProduct
+    currentProductTitle.textContent = chosenProduct.title;
+    currentProductPrice.textContent = "£" + chosenProduct.price;
+    currentProductImg.src = chosenProduct.colors[0].img;
+
+    // passing different colors to css
+    currentProductColors.forEach((color, index) => {
+      color.style.backgroundColor = chosenProduct.colors[index].code;
+    });
+  });
+});
+
+currentProductColors.forEach((color, index) => {
+  color.addEventListener("click", () => {
+    currentProductImg.src = chosenProduct.colors[index].img;
+  });
+});
