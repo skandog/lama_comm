@@ -182,4 +182,10 @@ nav {
   font-size: 20px;
   font-weight: 600;
   margin: 20px;
+}
+
+.feature-description {
+  color: grey;
+  width: 50%;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
