@@ -428,10 +428,20 @@ footer {
 .footer-right {
   flex: 1;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.footer-right-menu {
-  padding: 10px;
+.footer-input {
+  padding: 5px;
+}
+
+.footer-button {
+  padding: 5px;
+  background-color: black;
+  color: beige;
+  cursor: pointer;
 }
 
 .footer-icons {
@@ -439,7 +449,12 @@ footer {
 }
 
 .footer-icon {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin-right: 10px;
+}
+
+.copyright {
+  font-weight: 300;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
