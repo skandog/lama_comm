@@ -294,6 +294,22 @@ label {
     cursor: pointer;
 }
 
+.close {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: grey;
+    color: white;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 2px;
+
+
+}
+
 .product {
     height: 100vh;
     background-color: whitesmoke;
