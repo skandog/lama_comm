@@ -223,6 +223,17 @@ label {
 .pay-input {
   padding: 10px;
   margin: 10px 0px 10px 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.pay-input::-moz-placeholder {
+  color: lightgrey;
+}
+.pay-input:-ms-input-placeholder {
+  color: lightgrey;
+}
+.pay-input::placeholder {
+  color: lightgrey;
 }
 
 .product {
