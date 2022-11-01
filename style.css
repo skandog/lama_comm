@@ -360,5 +360,10 @@ label {
 }
 
 .gallery-item {
-  width: 33%;
+  flex: 1;
+  padding: 50px;
+}
+
+.gallery-img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
