@@ -384,3 +384,12 @@ label {
 
     }
 }
+
+.gallery {
+    padding: 50px;
+    display: flex;
+}
+
+.gallery-item {
+    width: 33%;
+}
