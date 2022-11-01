@@ -236,9 +236,36 @@ label {
   color: lightgrey;
 }
 
+.card-icons {
+  display: flex;
+}
+
 .card-icon {
   height: 40px;
   width: 40px;
+  margin-right: 10px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small {
+  width: 30%;
+}
+
+.pay-button {
+  position: absolute;
+  height: 40px;
+  bottom: -40px;
+  width: 100%;
+  left: 0;
+  box-shadow: 24px 35px 42px -8px rgb(192, 45, 106);
+  background-color: rgb(39, 139, 14);
+  color: beige;
+  border: none;
+  cursor: pointer;
 }
 
 .product {

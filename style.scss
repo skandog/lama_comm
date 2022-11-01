@@ -260,9 +260,38 @@ label {
     }
 }
 
+.card-icons {
+    display: flex;
+}
+
 .card-icon {
     height: 40px;
     width: 40px;
+    margin-right: 10px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small {
+    width: 30%;
+}
+
+.pay-button {
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    -webkit-box-shadow: 24px 35px 42px -8px $color-1;
+    -moz-box-shadow: 24px 35px 42px -8px $color-1;
+    box-shadow: 24px 35px 42px -8px $color-1;
+    background-color: $color-2;
+    color: beige;
+    border: none;
+    cursor: pointer;
 }
 
 .product {
