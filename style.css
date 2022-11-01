@@ -396,4 +396,35 @@ label {
   padding: 15px;
   font-weight: 600;
   cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.footer-menu-title {
+  font-size: 16px;
+}
+
+.footer-menu-list {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-list-item {
+  margin-bottom: 10px;
+  color: grey;
+  cursor: pointer;
+}
+
+.footer-right {
+  flex: 1;
 }/*# sourceMappingURL=style.css.map */
