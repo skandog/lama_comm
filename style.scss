@@ -546,4 +546,52 @@ footer {
         right: 0;
         top: 0;
     }
+
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature-description {
+        width: 80%;
+    }
+
+
+    .product {
+        clip-path: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 110vh;
+    }
+
+    .product-img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .product-details {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top: 0;
+    }
+
+    .product-title {
+        font-size: 50px;
+        margin: 0;
+    }
+
+
+    .gallery {
+        display: none;
+    }
+
+    .new-season {
+        display
+    }
 }
