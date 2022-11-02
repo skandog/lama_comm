@@ -539,6 +539,9 @@ footer {
     display: none;
   }
   .new-season {
-    display: flex;
+    flex-direction: column;
+  }
+  .ns-item:nth-child(2) {
+    padding: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
