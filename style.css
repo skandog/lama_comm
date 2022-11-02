@@ -457,4 +457,19 @@ footer {
 .copyright {
   font-weight: 300;
   font-size: 14px;
+}
+
+@media screen and (max-width: 780px) {
+  nav {
+    padding: 20px;
+  }
+  .search {
+    display: none;
+  }
+  .nav-bottom {
+    flex-wrap: wrap;
+  }
+  .menu-item {
+    margin-right: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */
