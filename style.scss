@@ -146,7 +146,11 @@ nav {
     border-radius: 50%;
     position: absolute;
 
-    z-index: -1;
+    // z-index: -1;
+}
+
+.slider-img {
+    z-index: 1;
 }
 
 .slider-title {
@@ -157,6 +161,7 @@ nav {
     font-size: 60px;
     font-weight: 900;
     text-align: center;
+    z-index: 1;
 }
 
 .slider-price {
@@ -168,6 +173,7 @@ nav {
     font-weight: 300;
     text-align: center;
     border: 1px grey solid;
+    z-index: 1;
 }
 
 .buy-button {
@@ -181,6 +187,7 @@ nav {
     border: 1px grey solid;
     cursor: pointer;
     background-color: black;
+    z-index: 1;
 
     &:hover {
         background-color: grey;
@@ -507,5 +514,36 @@ footer {
 
     .menu-item {
         margin-right: 20px;
+    }
+
+    .slider {
+        clip-path: none;
+
+    }
+
+    .slider-img {
+        width: 90%;
+    }
+
+    .slider-bg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slider-title {
+        display: none;
+    }
+
+    .slider-price {
+        top: unset;
+        left: 0;
+        bottom: 0;
+        background-color: darkgray;
+        margin: 0;
+    }
+
+    .buy-button {
+        right: 0;
+        top: 0;
     }
 }
