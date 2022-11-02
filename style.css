@@ -392,6 +392,8 @@ label {
 .ns-img {
   width: 100%;
   height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .ns-title {
